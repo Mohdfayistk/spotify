@@ -19,7 +19,7 @@ class ApiClient {
       case "POST":
         response = await post(Uri.parse(url),
             headers: {
-              'content-type': 'content-type',
+              'content-type': 'application/json',
               'X-RapidAPI-Key':
 
               '01673c7b0bmshdd2b55740649d24p1a6f97jsn6d1f0f405626',
